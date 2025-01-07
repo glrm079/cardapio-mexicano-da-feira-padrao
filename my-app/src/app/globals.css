@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainDiv {
+  background-image: url('/background-mobal.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.mainImage{
+  width: 1000px;
+}
+.bottom-colors-desktop{
+  display: none;
+}
+@media (min-width: 427px) {
+  .mainDiv {
+    background-image: url('/background-desktop.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+  }
+  .mainImage{
+    width: 70vh;
+  }
+  .bottom-colors-desktop{
+    display: block;
+  }
+  .bottom-colors-mobal{
+    display: none;
+  }
+}
