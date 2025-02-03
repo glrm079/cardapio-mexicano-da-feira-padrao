@@ -12,7 +12,7 @@ export default function Home() {
       {/* rodapé da pagina */}
       <div className="flex flex-col justify-center items-center pb-4 z-40">
         {/* botão ver mais */}
-        <a href="">
+        <a href="/cardapio">
           <img className="h-14 " src="/down-arrow-group.png" alt="" />
         </a>
       </div>
