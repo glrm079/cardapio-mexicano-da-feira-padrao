@@ -1,0 +1,20 @@
+
+{
+    "itens": [
+        {
+            "nome": "Combos",
+            "indice": 1,
+            "Foto": "url('/')",
+            "Titulo": "url('/')"
+        },
+        {
+            "nome": "Combos",
+            "indice": 2,
+            "Foto": "url('/')",
+            "Titulo": "url('/')"
+        }
+    ]
+}
+        
+      
+      
