@@ -4,14 +4,14 @@
         {
             "nome": "Combos",
             "indice": 1,
-            "Foto": "url('/')",
-            "Titulo": "url('/')"
+            "Foto": "url('/img-combos.png')",
+            "Titulo": "url('/combos-titulo.png')"
         },
         {
             "nome": "Combos",
             "indice": 2,
-            "Foto": "url('/')",
-            "Titulo": "url('/')"
+            "Foto": "url('')",
+            "Titulo": "url('/combos-titulo.png')"
         }
     ]
 }
